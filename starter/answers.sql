@@ -3,6 +3,3 @@ CREATE TABLE Student (
     studentName VARCHAR(20),
     courseID INT(5)
 );
-
-ALTER TABLE Student
-ADD FOREIGN KEY (courseID) REFERENCES Course(courseID);
